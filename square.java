@@ -25,7 +25,9 @@ class hollowSquare{
 
 public class square {
     public static void main(String[] args) {
-       
+        solidSquare dabbi = new solidSquare();
+        dabbi.draw(8);
+        
        hollowSquare dabba = new hollowSquare();
        dabba.draw(5);
     }
