@@ -6,7 +6,8 @@ public class selectionsort {
             min=i;
             for ( int j = i+1;j<a.length;j++){
                 if(a[min] >a[j]){
-                min=j;}
+                min=j;
+            }
             }
             temp=a[i];
             a[i] = a[min];
