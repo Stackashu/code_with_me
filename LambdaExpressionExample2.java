@@ -3,9 +3,7 @@ interface babu{
     public void draw();  
 }  
   
-/**
- * 
- */
+
  interface mine {
 String getname();
     
